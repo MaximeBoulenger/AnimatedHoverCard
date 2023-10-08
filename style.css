@@ -1,0 +1,23 @@
+.container {
+    perspective: 2000px;
+    /* useless */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* useless */
+}
+
+.card {
+    transition: 0.5s ease, 0.2s ease;
+    width: 500px;
+    height: 500px;
+    /* useless */
+    background-color: #1a1a1a;
+    border-radius: 20px;
+    /* useless */
+}
+
+.card.active, .card:hover {
+    transition: 0.1s ease-out;
+}
