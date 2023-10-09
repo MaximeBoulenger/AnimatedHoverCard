@@ -28,7 +28,6 @@ $cards
     // set / apply css class and style
     $cards.removeClass("active");
     $card.attr( "style", tf );
-    $style.html(style);
     if ( e.type === "touchmove" ) {
         return false; 
     }
